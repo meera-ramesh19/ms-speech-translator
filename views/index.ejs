@@ -3,14 +3,31 @@
 <head>
   <title>Microsoft Cognitive Services Speech SDK JavaScript Quickstart</title>
   <meta charset="utf-8" />
+  <style>
+    body {
+      background-image: url('skies.jpg');
+      background-size:1600px 900px;
+      background-repeat: no-repeat;
+    }
+    .container{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+       padding:100px 50px 50px 50px;
+       
+    }
+  
+
+    </style>
 </head>
 <body style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px;">
+  <div class="container">
   <div id="warning">
-    <h1 style="font-weight:500;">Speech Recognition Speech SDK not found (microsoft.cognitiveservices.speech.sdk.bundle.js missing).</h1>
+    <h1 style="font-weight:500;text-align:center">Speech Recognition Speech SDK not found (microsoft.cognitiveservices.speech.sdk.bundle.js missing).</h1>
   </div>
   
   <div id="content" style="display:none">
-    <table width="100%">
+    <table style="width:100%">
       <tr>
         <td></td>
         <td><h1 style="font-weight:500;">Microsoft Cognitive Services Speech SDK JavaScript Quickstart</h1></td>
@@ -75,6 +92,7 @@
     <h2 id="getText">Text to speech</h2>
   </div>
 
+</div>
   <!-- Speech SDK reference sdk. -->
   <script src="https://aka.ms/csspeech/jsbrowserpackageraw"></script>
   <script src="main.js"></script>
